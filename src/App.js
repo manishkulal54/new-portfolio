@@ -17,7 +17,8 @@ function App() {
   //     }, 6000);
   //   }, []);
 
-  // return isLoading === true ? 
+  return(
+  //  isLoading === true ? 
   //   <LoadScreen />
   //  : 
     <>
@@ -28,6 +29,7 @@ function App() {
       <Projects />
       <Footer />
     </>
+  )
 }
 
 export default App;
