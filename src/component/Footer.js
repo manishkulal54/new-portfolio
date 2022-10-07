@@ -12,7 +12,7 @@ export default function Footer() {
        <a href="https://www.linkedin.com/in/manish-kulal-530479170/" rel="noreferre"><i className="fa-brands fa-linkedin-in"></i></a>
        <a href="https://www.facebook.com/manish.kulal.10004" rel="noreferre"><i className="fa-brands fa-facebook"></i></a>
        <a href="https://github.com/manishkulal54" rel="noreferre"><i className="fa-brands fa-github"></i></a>
-       <a href="href=tel:+919741933493" rel="noreferre"><i className="fa-solid fa-phone"></i></a>
+       <a href="tel:+919741933493"><i className="fa-solid fa-phone"></i></a>
         </div>
         <div className="stLine"></div>
         <div className="fooText">

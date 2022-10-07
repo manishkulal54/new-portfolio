@@ -66,6 +66,8 @@
     }
     .container_A p{
         height: max-content;
+        width: 80%;
+        line-height: 30px;
     }
     
 }

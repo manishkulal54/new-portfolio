@@ -12,12 +12,10 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    window.onload = () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 5000);
-    };
-  }, []);
+      }, 6000);
+    }, []);
 
   return isLoading === true ? (
     <LoadScreen />

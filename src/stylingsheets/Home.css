@@ -20,7 +20,12 @@
 .subcontainer_h img{
     position: fixed;
     filter: invert(90%);
-    width: 30%;
+    width: 35%;
+}
+@media  screen and (max-device-width: 1000px) {
+    .subcontainer_h img{
+        width: 50%;
+    }    
 }
 
 /* for tablet */
@@ -29,13 +34,13 @@
         height: 100vh;
     }
     .subcontainer_h img{
-        width: 40%;
+        width: 60%;
     }    
 }
 
 /* for monbile */
 @media screen and (max-device-width:400px) {
     .subcontainer_h img{
-        width: 50%;
+        width: 60%;
     }
 }
