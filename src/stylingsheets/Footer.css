@@ -1,0 +1,54 @@
+.container_f{
+    height: 30vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #129729;
+    position: relative;
+}
+.subcontainer_f{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.subcontainer_f .icons{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.subcontainer_f .icons a{
+    color: black;
+}
+.subcontainer_f .icons i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.subcontainer_f .stLine{
+    border: 1px solid;
+    width: 80%;
+    height: 1px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.subcontainer_f .fooText{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcontainer_f .fooText p{
+    font-size: large;
+}
+@media screen and (max-device-width:500px) {
+    
+.subcontainer_f .icons i{
+    font-size: 1.5rem;
+}
+}

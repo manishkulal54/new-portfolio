@@ -1,0 +1,75 @@
+.container_s {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(95, 109, 76);
+    overflow: hidden;
+    position: relative;
+}
+
+.container_s .head {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.container_s .subcontainer_s {
+    margin: auto;
+    width: 85%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(199, 192, 192);
+}
+
+.subcontainer_s .card {
+    height: 250px;
+    width: 250px;
+    margin: 10px 2vw;
+    text-align: center;
+}
+
+.subcontainer_s .card p:first-child {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-device-width:1030px) {
+    .container_s {
+        height: 105vh;
+        width: 100%;
+    }
+
+    .container_s .subcontainer_s {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width:900px) {
+    .subcontainer_s .card {
+        height: 200px;
+        width: 200px;
+        margin-right: 2vw;
+    }
+    .subcontainer_s .card p:first-child {
+        margin: 10px;
+        font-size: 1.3rem;
+    }
+    .subcontainer_s .card p:nth-child(2) {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-device-width:400px) {
+    .container_s{
+        height: max-content;
+    }
+    .subcontainer_s .card {
+        margin: 10px 0;
+    }
+}

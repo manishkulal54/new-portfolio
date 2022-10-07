@@ -1,0 +1,41 @@
+.container_h{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#bgVid{
+    position: fixed;
+    top: 0;
+}
+.subcontainer_h{
+    position: relative;
+    top: 0;
+    background: rgba(126, 224, 21, 0.1);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcontainer_h img{
+    position: fixed;
+    filter: invert(90%);
+    width: 30%;
+}
+
+/* for tablet */
+@media  screen and (max-device-width: 600px) {
+    #bgVid{
+        height: 100vh;
+    }
+    .subcontainer_h img{
+        width: 40%;
+    }    
+}
+
+/* for monbile */
+@media screen and (max-device-width:400px) {
+    .subcontainer_h img{
+        width: 50%;
+    }
+}
