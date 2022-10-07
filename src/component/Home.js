@@ -6,7 +6,6 @@ import logo from "../vid_img/logo.png"
 import "../stylingsheets/Home.css"
 
 export default function Home() {
-  localStorage.setItem("test",backgroundVid)
   return (
     <>
     <div className='container_h'>
